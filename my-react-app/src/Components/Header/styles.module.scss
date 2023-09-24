@@ -1,0 +1,30 @@
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--background-color-light);
+
+    margin-bottom: 3rem;
+
+    padding: 1rem 2rem;
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    #search__bar {
+        height: 2rem;
+        width: 20rem;
+        border-radius: 1rem;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+    }
+
+}
